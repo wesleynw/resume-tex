@@ -1,0 +1,7 @@
+# snippets 
+
+\noindent \textbf{Jamba Juice} \hfill Summer 2021
+    \\ \textit{Team Lead}
+    \begin{itemize}
+        \item Experience in a fast-paced customer-oriented work environment where precision and orchestration of many concurrent tasks was crucial. Promoted to 'Team Lead' within three weeks after demonstrating superior leadership and organizational skills. 
+    \end{itemize}
