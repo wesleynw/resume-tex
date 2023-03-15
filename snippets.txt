@@ -18,3 +18,19 @@
         \item Developed an emulator of a WW2 Enigma Machine that could encrypt and decrypt text using cryptographically accurate implementations.
         \item Object-Oriented design made use of custom data structures representing physical rotors, plugboard, and alphabets of actual machine to enable clean code, programmatic readability, and modularity.
     \end{itemize} 
+
+    \header{EXTRACURRICULARS}
+    
+    \textbf{Eagle Scout} \hfill 2009 -- 2020
+    \begin{itemize}
+        \item Demonstrated leadership, logistical, and communication expertise by coordinating multiple backpacking trips of up to 14 days and 100 miles.
+        \item Facilitated meetings of 30+ Scouts, organized activites and taught practical and wilderness skills.
+    \end{itemize}
+
+
+    \textbf{Open Computing Facility} \hfill Fall 2020 -- Present
+        \begin{itemize}
+            \item Maintaining campus computing infrastructure such as web hosting, printing, and computer lab.
+            \item Performing system administration of servers and desktops used by hundreds of students each day.
+            \item Teach various classes on Linux techniques and skills.
+        \end{itemize}

@@ -1,0 +1,167 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper, margin=0.4in,top=0.35in]{geometry}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+% \usepackage{parskip}
+\setlist{topsep=1mm, parsep=1.75mm, itemsep=-0.1em}
+
+\usepackage{tgschola}
+\usepackage[T1]{fontenc}
+
+\usepackage{changepage}
+
+\hyphenpenalty=10000
+
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+
+    \newcommand{\header}[1]{ 
+        \vspace{4mm}
+        {\large \noindent \textbf{#1}}
+        \vspace{1.5mm}
+        \hrule
+        \vspace{2mm}
+    }
+
+    \begin{center}
+        
+        {\huge \textbf{Wesley Weisenberger}}
+    
+        \vspace{2mm}
+
+        {\Large Berkeley, CA  $\mid$ 
+        \href{tel:18052706573}{(805) 270-6573} $\mid$ 
+        \href{mailto:wesley@berkeley.edu}{wesley@berkeley.edu}
+        $\mid$ 
+        \href{https://github.com/wesleynw}{github.com/wesleynw}}
+
+    \end{center}
+
+    
+    \header{EDUCATION}
+
+        \begin{adjustwidth}{1em}{1em}
+
+            \textbf{University of California, Berkeley} 
+            \hfill 
+            \textbf{Expected Graduation:} May 2024 \\
+            Bachelor of Arts in Computer Science, Minor in Data Science \hfill  \textbf{GPA:} 3.7
+
+            \vspace{2.5mm}
+
+            \textbf{Relevant Coursework:}
+                Structure and Interpretation of Computer Programs, 
+                Data Structures, 
+                Computer Architecture,
+                Discrete Math and Probability Theory, 
+                Designing Information Devices and Systems I \& II,
+                Database Systems, \\
+                Computer Security,
+                Foundations of Data Science,
+                Principles and Techniques of Data Science, \\
+                Human Contexts and Ethics of Data, 
+                Advanced Linux System Administration,
+                Calculus I \& II
+
+        \end{adjustwidth}
+
+            
+    \header{WORK EXPERIENCE}
+
+    \begin{adjustwidth}{1em}{1em}
+
+
+        \textbf{Undergraduate Research Apprentice Program} \hfill Fall 2022 -- Present
+        \\ \textit{Data Science Student Researcher}
+        \begin{itemize}
+            \item Researching under Professor Johnathan Marshall in the UC Berkeley Legal Studies Department.
+            \item Using text data mining to understand patterns and changes in 18th-19th Century criminal law.
+            \item Constructing RegEx classifiers to impute class on 16,000+ Old Bailey Online corpus criminal cases.
+        \end{itemize}
+
+        \vspace{1mm}
+
+        \textbf{UC Berkeley Division of Computing, Data Science, and Society} \hfill Fall 2021
+        \\ \textit{Data 8 (Data Science Foundations) Academic Intern}
+        \begin{itemize}
+            \item Assisted 30+ students in weekly labs with debugging and reinforcing programming concepts.
+            \item Prepared and presented enrichment material for students to guide development in mastering data science problems.
+            \item Teaching topics include regression, classification algorithms, probabilistic distributions, SQL, and sampling methods
+
+        \end{itemize}
+
+        
+
+        
+    \end{adjustwidth}
+
+    
+
+    \header{PROJECTS}
+
+
+    \begin{adjustwidth}{1em}{1em}
+        \textbf{RookieDB -- Java} \hfill Spring 2023
+        \begin{itemize}
+            \item Database management system capable of parsing complex SQL queries.
+            \item Query optimizer intelligently choses best query plan and join methods to optimize performance.
+            \item Implemented B+ tree indexing and multigranular concurrency control. 
+        \end{itemize}
+
+        \vspace{1mm}
+
+        \textbf{Discord Bot -- Python} \hfill Spring 2022
+        \begin{itemize}
+            \item Allowed users to query images from an aggregated search engine, then manipulate, rasterize, or edit said images through text commands.
+            \item Self-hosted docker environment facilitated error-handling and networking between Python container, search engine, and Linux system used for processing images.
+        \end{itemize}
+
+        \textbf{Gitlet -- Java} \hfill Fall 2021 
+        \begin{itemize}
+            \item Custom version control system modeled with functionality modeled after Git.
+            \item Supports file tracking, branching, merging, and remote repositories.
+            \item Implemented custom data structures to enable constant-time file lookup, hashing to handle "diffs" and to prevent file collisions, and merge conflict handling.
+        \end{itemize}
+
+        \vspace{1mm}
+
+        \noindent \textbf{Weather Station -- C, HTML, Javascript} \hfill Spring 2021
+        \begin{itemize}
+            \item Designed a custom battery-powered Arduino weather monitoring circuit system which pushed data to a database on a locally hosted Linux web server, accessible to the internet. 
+            \item Self-hosted website to display and visualize weather data and give users the ability to pull more recent weather measurements from the device.
+        \end{itemize}
+
+        
+    \end{adjustwidth}
+
+    
+
+    \header{TECHNICAL SKILLS}
+
+    \begin{adjustwidth}{1em}{1em}
+        
+        \textbf{Languages}: Python, Java, C, Golang, SQL, Assembly, HTML, CSS, Javascript, PHP, Swift
+    
+        \vspace{1mm}
+
+        \textbf{Tools:} Git, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Docker, \LaTeX, GDB, Linux Systems \& Servers, MongoDB, RegEx, XArray
+
+    \end{adjustwidth}
+
+    
+\end{document}
