@@ -1,7 +1,20 @@
 # snippets 
 
-\noindent \textbf{Jamba Juice} \hfill Summer 2021
+\textbf{Jamba Juice} \hfill Summer 2021
     \\ \textit{Team Lead}
     \begin{itemize}
         \item Experience in a fast-paced customer-oriented work environment where precision and orchestration of many concurrent tasks was crucial. Promoted to 'Team Lead' within three weeks after demonstrating superior leadership and organizational skills. 
     \end{itemize}
+
+
+\textbf{Discord Bot} -- Python, MongoDB \hfill Spring 2022
+    \begin{itemize}
+        \item Built and maintained Discord bot to provide statistics and helpful functions to Discord users in a server, leveraging databases to provide fast compute times.
+        \item Self-hosted on a Raspberry Pi, utilizing an updating scheme and systemd exception/error handling.
+    \end{itemize}
+
+   \textbf{Enigma Machine} -- Java \hfill Fall 2021
+    \begin{itemize}
+        \item Developed an emulator of a WW2 Enigma Machine that could encrypt and decrypt text using cryptographically accurate implementations.
+        \item Object-Oriented design made use of custom data structures representing physical rotors, plugboard, and alphabets of actual machine to enable clean code, programmatic readability, and modularity.
+    \end{itemize} 
