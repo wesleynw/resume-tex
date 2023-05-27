@@ -28,9 +28,16 @@
     \end{itemize}
 
 
-    \textbf{Open Computing Facility} \hfill Fall 2020 -- Present
+\textbf{Open Computing Facility} \hfill Fall 2020 -- Present
+    \begin{itemize}
+        \item Maintaining campus computing infrastructure such as web hosting, printing, and computer lab.
+        \item Performing system administration of servers and desktops used by hundreds of students each day.
+        \item Teach various classes on Linux techniques and skills.
+    \end{itemize}
+
+\textbf{RookieDB -- Java} \hfill Spring 2023
         \begin{itemize}
-            \item Maintaining campus computing infrastructure such as web hosting, printing, and computer lab.
-            \item Performing system administration of servers and desktops used by hundreds of students each day.
-            \item Teach various classes on Linux techniques and skills.
+            \item Fully fledged database management system capable of parsing complex SQL queries efficiently from a command-line interface, implemented using B+ trees to enable tailored data storage schemas to minimize IO costs.
+            \item Supports multigranular concurrent execution control and database recovery.
+            \item Query Optimizer to intelligently develop query plans and choose query execution paths, disk accesses, and join methods to optimize performance.
         \end{itemize}
