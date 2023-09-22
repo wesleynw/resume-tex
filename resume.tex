@@ -1,6 +1,6 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[letterpaper, margin=0.4in,top=0.35in]{geometry}
+\usepackage[letterpaper, margin=0.4in,top=0.35in, includefoot]{geometry}
 
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -12,6 +12,8 @@
 \usepackage[T1]{fontenc}
 
 \usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage[mmddyy]{datetime}
 
 \hyphenpenalty=10000
 
@@ -24,11 +26,14 @@
     urlcolor=black
 }
 
-\thispagestyle{empty}
+% \thispagestyle{empty}
 \setlength{\parindent}{0pt}
 
 
 \begin{document}
+
+\pagestyle{fancy}
+\fancyhead{}\fancyfoot{}
 
     \newcommand{\header}[1]{ 
         \vspace{4mm}
@@ -70,14 +75,17 @@
                 Data Structures, \\
                 Computer Architecture,
                 Discrete Math and Probability Theory, 
-                Designing Information Devices and Systems I \& II, \\
+                Efficient Algorithms and Intractable Problems, \\
+                Artificial Intelligence,
+                Designing Information Devices and Systems I \& II,
                 Database Systems, 
                 Computer Security,
                 Foundations of Data Science,
-                Principles and Techniques of Data Science, \\
-                Human Contexts and Ethics of Data, 
+                Principles of Data Science,
+                Data Ethics, 
                 Advanced Linux System Administration,
-                Calculus I \& II
+                Operating Systems (\textit{planned}),
+                Programming Langugages \& Compilers (\textit{planned})
 
         \end{adjustwidth}
 
@@ -160,13 +168,16 @@
 
     \begin{adjustwidth}{1em}{1em}
         
-        \textbf{Languages}: Python, Java, C, Go, SQL, HTML, CSS, Javascript, PHP, Swift, RISC-V Assembly
+        \textbf{Languages}: Python, Java, C, Go, Javascript, HTML, CSS, SQL, PHP, Swift, RISC-V Assembly
     
         \vspace{1mm}
 
         \textbf{Tools:} Git, Linux, Docker, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, \LaTeX, MongoDB, RegEx
 
     \end{adjustwidth}
+
+
+    \fancyfoot[R]{Updated: \today}
 
     
 \end{document}
