@@ -58,6 +58,7 @@
 
 \end{center}
 
+\vspace{-2.5mm}
 
 \header{EDUCATION}
 
@@ -66,7 +67,7 @@
     \textbf{University of California, Berkeley}
     \hfill
     \textbf{Expected Graduation:} May 2024 \\
-    Bachelor of Arts in Computer Science, Minor in Data Science \hfill  \textbf{GPA:} 3.7
+    Bachelor of Arts in Computer Science, Minor in Data Science \hfill  \textbf{GPA:} 3.72
 
     \vspace{2.5mm}
 
@@ -87,81 +88,6 @@
 
 \end{adjustwidth}
 
-
-\header{WORK EXPERIENCE}
-
-\begin{adjustwidth}{1em}{1em}
-
-
-    \textbf{Undergraduate Research Apprentice Program} \hfill August 2022 -- Present
-    \\ \textit{Data Science Student Researcher}
-    \begin{itemize}
-        \item Researching under Professor Johnathan Marshall in the UC Berkeley Legal Studies Department.
-        \item Developed classifiers to identify statistical patterns and anomalies in the Old Bailey Online corpus of criminal cases in London.
-        \item Constructed XML parsers to ensure old, irregular case data was interoperable with Pandas/NumPy.
-    \end{itemize}
-
-    \vspace{1mm}
-
-    % \textbf{UC Berkeley Division of Computing, Data Science, and Society} \hfill August 2021 -- May 2022
-    % \\ \textit{Data 8 (Data Science Foundations) Academic Intern}
-    % \begin{itemize}
-    %     \item Assisted 30+ students in weekly labs with debugging and reinforcing programming concepts.
-    %     \item Prepared and presented enrichment material for students to guide development in mastering data science problems.
-    %     \item Topics included regression, classification algorithms, probabilistic distributions, SQL, and sampling methods.
-    % \end{itemize}
-
-    \textbf{Open Computing Facility} \hfill Fall 2020 -- Present
-    \begin{itemize}
-        \item Maintaining campus computing infrastructure such as web hosting, printing, and computer lab.
-        \item Performing system administration of servers and desktops used by hundreds of students each day.
-        \item Teach various classes on Linux techniques and skills.
-    \end{itemize}
-
-
-\end{adjustwidth}
-
-
-
-\header{PROJECTS}
-
-\begin{adjustwidth}{1em}{1em}
-
-    \textbf{End to End Encrypted File Sharing System -- Go} \hfill Spring 2023
-    \begin{itemize}
-        \item Designed and developed an API that allows users to upload, append to, delete, files.
-        \item API also supports secure file sharing between users and revocation of file access.
-        \item Custom suite of tests written to ensure that file integrity and confidentiality were maintained even after any malicious actions taken on the server.
-    \end{itemize}
-
-    \vspace{1mm}
-
-    \textbf{Discord Bot -- Python} \hfill Spring 2022
-    \begin{itemize}
-        \item Enabled users to query images from an aggregated search engine, then manipulate, rasterize, or edit said images through text commands and macros.
-        \item Self-hosted Docker environment facilitated error-handling and networking between Python container, search engine, and Linux system used for processing images.
-    \end{itemize}
-
-    \textbf{Gitlet -- Java} \hfill Fall 2021
-    \begin{itemize}
-        \item Custom version control system modeled with functionality modeled after Git.
-        \item Supports file tracking, branching, merging, and remote repositories.
-        \item Implemented custom data structures to enable constant-time file lookup, hashing to handle "diffs" and to prevent file collisions, and merge conflict handling.
-    \end{itemize}
-
-    \vspace{1mm}
-
-    \noindent \textbf{Weather Station -- C, HTML, Javascript} \hfill Spring 2021
-    \begin{itemize}
-        \item Constructed a custom battery-powered Arduino weather monitoring circuit system which pushed data to a database on a locally hosted Linux web server, accessible to the internet.
-        \item Self-hosted website to display and visualize weather data and trends. Website also gave users the ability to pull more recent weather measurements from the device.
-    \end{itemize}
-
-
-\end{adjustwidth}
-
-
-
 \header{TECHNICAL SKILLS}
 
 \begin{adjustwidth}{1em}{1em}
@@ -173,6 +99,89 @@
     \textbf{Tools:} Git, Linux, Docker, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, \LaTeX, MongoDB, RegEx
 
 \end{adjustwidth}
+
+
+\header{PROJECTS}
+
+\begin{adjustwidth}{1em}{1em}
+
+
+
+    \textbf{Full-Stack Todo List \& Scheduling App -- React, Node.js, MongoDB} \hfill Fall 2023
+
+    \textit{Personal Project}, available at \href{https://wesleyweisenberger.xyz}{wesleyweisenberger.xyz}.
+    \begin{itemize}
+        \item Seamless account creation \& login, session management handled by JSON Web Tokens, and a secure REST API backend that persists data in MongoDB, with data automatically being refreshed across signed-in devices.
+        \item Intuitive, accessible, \& dynamic frontend built from scratch allows users to add tasks with customizable due date and priority options, and later remove, sort, \& edit these tasks with attention paid to responsive layouts on mobile devices.
+        \item Self hosted on DigitalOcean as a custom configured production server using Nginx \& Let's Encrypt.
+    \end{itemize}
+
+
+
+    \vspace{1mm}
+
+
+
+    \noindent \textbf{Weather Station \& Online Monitor/Visualizer -- C, HTML, Javascript} \hfill Spring 2021
+
+    \textit{Personal Project}
+
+    \begin{itemize}
+        \item Constructed a custom battery-powered Arduino weather monitoring circruit \& system which pushed environmental data to a database on a locally hosted Linux web server, accessible to the internet.
+        \item Website allowed users to monitor and visualize weather data \& trends. Users also had the ability to requst more recent weather measurements from the device.
+    \end{itemize}
+
+
+
+    \vspace{1mm}
+
+
+
+    \textbf{End to End Encrypted File Sharing System -- Go} \hfill Spring 2023
+
+    \textit{Class Project}
+    \begin{itemize}
+        \item Designed and developed an API that allows users to upload, append to, and delete files.
+        \item API also supports secure file sharing between users and revocation of file access.
+        \item Custom suite of tests written to ensure that file integrity and confidentiality were maintained even after any malicious actions were taken on the server.
+    \end{itemize}
+
+    \vspace{1mm}
+
+    \textbf{Gitlet -- Java} \hfill Fall 2021
+
+    \textit{Class Project}
+    \begin{itemize}
+        \item Custom version control system with functionality modeled after Git.
+        \item Supports file/folder tracking, branching, merging, and remote repositories.
+        \item Implemented custom data structures to enable constant-time file lookup, hashing to handle ``diffs'', to prevent file collisions, and to facilitate merge conflict handling.
+    \end{itemize}
+
+
+    
+
+
+\end{adjustwidth}
+
+
+\header{WORK EXPERIENCE}
+
+\begin{adjustwidth}{1em}{1em}
+
+
+    \textbf{Undergraduate Research Apprentice Program} \hfill August 2022 -- December 2023
+    \\ \textit{Computer \& Data Science Student Researcher under Prof. Johnathan Marshall}
+    \begin{itemize}
+        % \item Researching under Professor Johnathan Marshall in the UC Berkeley Legal Studies Department.
+        \item Developed classifiers and statistical models to identify patterns and anomalies in historical crime data.
+        \item Constructed XML parsers to parse cases and to ensure old, irregular data was interoperable with Pandas/NumPy.
+        \item Employed Text Data Mining \& Analytics to make conclusions about and to verify hypotheses about the data.
+    \end{itemize}
+
+    \vspace{1mm}
+
+\end{adjustwidth}
+
 
 
 \fancyfoot[R]{Updated: \today}

@@ -13,6 +13,14 @@
         \item Self-hosted on a Raspberry Pi, utilizing an updating scheme and systemd exception/error handling.
     \end{itemize}
 
+newer:::
+
+    \textbf{Discord Bot -- Python} \hfill Spring 2022
+    \begin{itemize}
+        \item Enabled users to query images from an aggregated search engine, then manipulate, rasterize, or edit said images through text commands and macros.
+        \item Self-hosted Docker environment facilitated error-handling and networking between Python container, search engine, and Linux system used for processing images.
+    \end{itemize}
+
    \textbf{Enigma Machine} -- Java \hfill Fall 2021
     \begin{itemize}
         \item Developed an emulator of a WW2 Enigma Machine that could encrypt and decrypt text using cryptographically accurate implementations.
@@ -28,7 +36,7 @@
     \end{itemize}
 
 
-\textbf{Open Computing Facility} \hfill Fall 2020 -- Present
+        \textbf{Open Computing Facility} \hfill Fall 2020 -- Present
     \begin{itemize}
         \item Maintaining campus computing infrastructure such as web hosting, printing, and computer lab.
         \item Performing system administration of servers and desktops used by hundreds of students each day.
@@ -41,3 +49,4 @@
             \item Supports multigranular concurrent execution control and database recovery.
             \item Query Optimizer to intelligently develop query plans and choose query execution paths, disk accesses, and join methods to optimize performance.
         \end{itemize}
+
