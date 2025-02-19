@@ -1,0 +1,41 @@
+name: Compile LaTeX and Publish Release
+
+on:
+  push:
+    paths:
+      - "**.tex"
+  pull_request:
+    paths:
+      - "**.tex"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: sudo apt-get update && sudo apt-get install -y texlive-full
+
+      - name: Compile LaTeX Document
+        run: pdflatex -interaction=nonstopmode -halt-on-error resume.tex
+        working-directory: .
+
+      - name: Get Current Date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Upload PDF to GitHub Release
+        id: upload-release-asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: resume.pdf
+          tag_name: latest
+          release_name: "Resume - ${{ env.date }}"
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
